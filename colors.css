@@ -1,0 +1,135 @@
+:root {
+    --col-max: #FFFFFF;
+    --col-brighter: #DBDBDB;
+    --col-bright: #B6B6B6;
+    --col-standard: #929292;
+    --col-standard-dim: #6D6D6D;
+    --col-dim: #494949;
+    --col-dimmer: #242424;
+    --col-min: #000000;
+    --col-min-partial: rgba(0, 0, 0, 128);
+    --col-min-empty: rgba(0, 0, 0, 0);
+}
+
+.theme-gammagreen {
+    --col-max: #6efac8;
+    --col-brighter: #60E2B9;
+    --col-bright: #52CAAA;
+    --col-standard: #44B29B;
+    --col-standard-dim: #369A8C;
+    --col-dim: #28827D;
+    --col-dimmer: #1A6A6E;
+    --col-min: #0C525F;
+    --col-min-partial: rgba(12, 82, 95, 128);
+    --col-min-empty: rgba(12, 82, 95, 0);
+}
+
+.theme-crimson {
+    --col-max: #F8427D;
+    --col-brighter: #E13D75;
+    --col-bright: #CB396D;
+    --col-standard: #B53367;
+    --col-standard-dim: #9F2E61;
+    --col-dim: #882959;
+    --col-dimmer: #722451;
+    --col-min: #5C1F49;
+    --col-min-partial: rgba(92, 31, 73, 128);
+    --col-min-empty: rgba(92, 31, 73, 0);
+}
+
+.theme-wumpite {
+    --col-max: #8BA4F3;
+    --col-brighter: #7F97E7;
+    --col-bright: #738ADB;
+    --col-standard: #677DCF;
+    --col-standard-dim: #5B70C3;
+    --col-dim: #4F63B7;
+    --col-dimmer: #4356AB;
+    --col-min: #34489F;
+    --col-min-partial: rgba(52, 72, 159, 128);
+    --col-min-empty: rgba(52, 72, 159, 0);
+}
+
+.theme-glass {
+    --col-max: #DEFFFA;
+    --col-brighter: #A8E7DF;
+    --col-bright: #87D0C8;
+    --col-standard: #52A6A1;
+    --col-standard-dim: #469996;
+    --col-dim: #31807F;
+    --col-dimmer: #2B6C74;
+    --col-min: #1C595E;
+    --col-min-partial: rgba(28, 89, 94, 128);
+    --col-min-empty: rgba(28, 89, 94, 0);
+}
+
+.theme-polarity
+{
+    --col-max: #E3F4FF;
+    --col-brighter: #CCE1F0;
+    --col-bright: #B4CCDE;
+    --col-standard: #9FB9CF;
+    --col-standard-dim: #93ADC4;
+    --col-dim: #849EB8;
+    --col-dimmer: #768EA8;
+    --col-min: #677E99;
+}
+
+.theme-lemon {
+    --col-max: #FBFD77;
+    --col-brighter: #EFE465;
+    --col-bright: #E1D05A;
+    --col-standard: #D5B750;
+    --col-standard-dim: #C9A047;
+    --col-dim: #BF9442;
+    --col-dimmer: #B4793A;
+    --col-min: #AF6534;
+}
+
+.theme-amber
+{
+    --col-max: #F8AE2C;
+    --col-brighter: #EB9B23;
+    --col-bright: #D9871C;
+    --col-standard: #D17A17;
+    --col-standard-dim: #C46B12;
+    --col-dim: #B85E0F;
+    --col-dimmer: #A84E08;
+    --col-min: #9A3E00;
+}
+
+.theme-oceanic
+{
+    --col-max: #65BDEF;
+    --col-brighter: #57A8DE;
+    --col-bright: #4D98D1;
+    --col-standard: #4483C2;
+    --col-standard-dim: #3C70B5;
+    --col-dim: #3660A8;
+    --col-dimmer: #2E4E99;
+    --col-min: #273B8F;
+}
+
+.theme-taffy
+{
+    --col-max: #F8D6FF;
+    --col-brighter: #EBBBEF;
+    --col-bright: #E5ACE5;
+    --col-standard: #D996D3;
+    --col-standard-dim: #CF84C2;
+    --col-dim: #C274AE;
+    --col-dimmer: #B8699D;
+    --col-min: #B0608F;
+}
+
+.theme-chocolate
+{
+    --col-max: #AD7B6B;
+    --col-brighter: #A06E5D;
+    --col-bright: #99614E;
+    --col-standard: #8E523E;
+    --col-standard-dim: #81422E;
+    --col-dim: #733520;
+    --col-dimmer: #5A200D;
+    --col-min: #3F1402;
+}

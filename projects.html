@@ -3,32 +3,49 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body class="gradientDimmerMin fixedFill">
-    <div class="menuBar">
-        <div class="menuLogo"><a class="" href="index.html">A2</a></div>
-        <div class="menuButton"><a class="" href="projects.html">Projects</a></div>
-        <div class="menuButton"><a class="" href="gallery.html">Gallery</a></div>
-        <div class="menuButton">Contact</div>
-    </div>
-    <div class="pageContent">
-        <div class="section fixed">This portfolio is currently being worked on. Sorry about the clutter.</div>
-        <div class="section">
-            <div class="projectNode">
-                <div class="header">
-                    <div class="icon"><!--(image goes here)--></div>
-                    <div class="title">Orikivo Arcade</div>
+    <body class="">
+        <div class="page gradientFill fixedFill">
+            <div class="menuBar">
+                <a href="index.html"><div class="menuLogo outline">A2</div></a>
+                <a href="projects.html"><div class="menuButton outline">Projects</div></a>
+                <a href="gallery.html"><div class="menuButton outline">Gallery</div></a>
+                <a href="contact.html"><div class="menuButton outline">Contact</div></a>
+            </div>
+            <div class="pageContent">
+                <div class="section fixed notice">
+                    <div class="icon outline">⚠</div>
+                    <div class="text">This portfolio is currently being worked on. Sorry about the mess.</div>
                 </div>
-                <div class="time">2018-2020</div>
-                <div class="description">Orikivo Arcade is a Discord bot designed to focus on multiplayer activities.</div>
-                <div class="media list padOutTop">
-                    <div class="projectLink"><a class="linker" href="https://discord.com/oauth2/authorize?client_id=686093964029329413&scope=bot&permissions=388160">Invite</a></div>
-                    <div class="projectLink"><a class="linker" href="https://abnersquared.github.io/Orikivo.Web/">Website</a></div>
+                <div class="flex theme-glass">
+                    <div class="projectNode outline thick">
+                        <div class="container">
+                            <div class="icon"></div>
+                            <div class="header">
+                                <div class="title">Orikivo Arcade</div>
+                                <div class="subtitle">2018-2020</div>
+                            </div>
+                            <div class="content">Orikivo Arcade is a Discord bot designed to focus on multiplayer activities.</div>
+                            <div class="media list">
+                                <a class="linker" href="https://abnersquared.github.io/Orikivo.Web/"><div class="mediaLink">Website</div></a>
+                                <a class="linker" href="https://github.com/AbnerSquared/Orikivo"><div class="mediaLink">Repository</div></a>
+                            </div>
+                        </div>
+                        <!--<div class="image"></div>-->
+                    </div>
                 </div>
-                <div class="nodeGallery">
-                    <!--(if any, images go here)-->
+                <div class="flex theme-gammagreen">
+                    <div class="projectNode outline thick">
+                        <div class="container">
+                            <div class="icon"></div>
+                            <div class="header">
+                                <div class="title">Orikivo</div>
+                                <div class="subtitle">2016-2020</div>
+                            </div>
+                            <div class="content linkless">Orikivo was the original Discord bot that eventually was built around an RPG-like style. Due to its complexity, the project was discontinued in favor of Orikivo Arcade.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </body>
 </html>
