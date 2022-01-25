@@ -145,3 +145,19 @@
     --col-min-partial: rgba(63, 20, 2, 128);
     --col-min-empty: rgba(63, 20, 2, 0);
 }
+
+
+/* https://lospec.com/palette-list/slso8 | Thanks. :) */
+.theme-slso
+{
+    --col-max: #ffecd6;
+    --col-brighter: #ffd4a3;
+    --col-bright: #ffaa5e;
+    --col-standard: #d08159;
+    --col-standard-dim: #8d697a;
+    --col-dim: #544e68;
+    --col-dimmer: #203c56;
+    --col-min: #0d2b45;
+    --col-min-partial: rgba(13, 43, 69, 128);
+    --col-min-empty: rgba(13, 43, 69, 0);
+}
