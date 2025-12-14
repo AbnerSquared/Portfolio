@@ -360,13 +360,42 @@ div {
     padding: 0 4px;
 }
 
+.gallery .column-full {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.gallery .column-half {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
 .gallery .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
 
+.gallery .column-half img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.gallery .column-full img, .gallery .column-full video {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 .gallery .node {
+    width: fit-content;
+    height: fit-content;
+}
+
+.gallery video {
     width: fit-content;
     height: fit-content;
 }
